@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddSqlServer<TareasContext>("Server=DESKTOP-3L9HGHM\\SQLEXPRESS;Database=TareasDB;Trusted_Connection=True;TrustServerCertificate=True;");
+builder.Services.AddSqlServer<TareasContext>("");
 builder.Services.AddScoped<IHelloWorldService>(p=> new HelloWorldService());
 builder.Services.AddScoped<ICategoriaService, CategoriaService>();
 builder.Services.AddScoped<ITareaService, TareaService>();
