@@ -35,13 +35,20 @@ It uses Entity Framework Core for database management and follows a modular and 
 </div>
 
 #### Examples
-Reference image of the **Get** method for querying tasks.
-![image](https://github.com/user-attachments/assets/59a7972a-da7a-400f-9be4-c883a640ea57)
+Reference image of the **Get** method for querying categories.
+![image](https://github.com/user-attachments/assets/7341684a-2c36-45f3-b7ac-f88bda2d056c)
+
 
 Reference image of the **POST** method for data insertion.
-![image](https://github.com/user-attachments/assets/154e3109-3b7b-4772-bb4d-cdee41fa83f6)
+![image](https://github.com/user-attachments/assets/973b5a28-bfa7-4a81-b3b6-3afd602d416a)
 
 Reference image showing the use of **Fluent API** within the code for inserting primary data.
-![image](https://github.com/user-attachments/assets/8377bcbc-2819-41d0-a49f-08866937c676)
+![image](https://github.com/user-attachments/assets/7a40461b-8e98-4b6a-97a6-2e3defa508f8)
+
 Use of Fluent **API** for insertion in the Tasks model.
-![image](https://github.com/user-attachments/assets/2baafc17-446e-49c2-ad15-c12079c5f079)
+![image](https://github.com/user-attachments/assets/ec2a5fc2-9f36-47ce-ac06-e53df46ef047)
+
+use of scoped for http implementation
+![image](https://github.com/user-attachments/assets/d3d256cb-b756-4ef1-aebe-169a5b0a0b41)
+
+
